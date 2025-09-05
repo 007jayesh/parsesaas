@@ -39,3 +39,52 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Backend uploads
+backend/uploads/
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
+
+# Backup files  
+*_backup_*/
+*.backup
+*.bak
+*backup*
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Claude Files
+.claude/
+
+# Test files
+test_*.py
+check_*.py  
+update_*.py
+theme.py
+config.py
+
+# Email attachments
+Email*.pdf
+Office*.pdf
+
+# Logs
+*.log
